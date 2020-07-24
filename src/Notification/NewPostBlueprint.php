@@ -66,7 +66,7 @@ class NewPostBlueprint implements BlueprintInterface, MailableInterface
      */
     public function getEmailSubject()
     {
-        return '[New Post] '.$this->post->discussion->title;
+        return '[Novo Post] '.$this->post->discussion->title;
     }
 
     /**
